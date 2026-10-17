@@ -1,0 +1,15 @@
+Checked code commit: 8d44205621c0c63d13c2be22120b4a0c343eb3bd
+Command: python main.py
+
+STDOUT:
+Чётные числа: [-2, 0, 2, 4, 6]
+5! = 120; 0! = 1
+Факториал с логированием: 24
+Мемоизация: 49, 49; реальных вычислений: 1
+Декоратор repeat(3): ['Привет, Илья!', 'Привет, Илья!', 'Привет, Илья!']
+
+STDERR:
+INFO: Вызов factorial: args=(4,), kwargs={}
+INFO: Результат factorial: 24
+
+Exit code: 0

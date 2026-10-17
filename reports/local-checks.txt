@@ -1,0 +1,29 @@
+Checked code commit: 8d44205621c0c63d13c2be22120b4a0c343eb3bd
+Python: 3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]
+Command: python -m unittest discover -s tests -t . -v
+
+test_commands (tests.test_cli.CliTests.test_commands) ... ok
+test_demo_outside_project (tests.test_cli.CliTests.test_demo_outside_project) ... ok
+test_invalid_cli (tests.test_cli.CliTests.test_invalid_cli) ... ok
+test_even_numbers (tests.test_functions.FunctionTests.test_even_numbers) ... ok
+test_even_rejects_invalid_items (tests.test_functions.FunctionTests.test_even_rejects_invalid_items) ... ok
+test_factorial_against_reference (tests.test_functions.FunctionTests.test_factorial_against_reference) ... ok
+test_invalid_factorial (tests.test_functions.FunctionTests.test_invalid_factorial) ... ok
+test_log_error_is_propagated (tests.test_functions.FunctionTests.test_log_error_is_propagated) ... ok
+test_log_success (tests.test_functions.FunctionTests.test_log_success) ... ok
+test_memoize_equivalent_calls_and_clear (tests.test_functions.FunctionTests.test_memoize_equivalent_calls_and_clear) ... ok
+test_memoize_errors_are_not_cached (tests.test_functions.FunctionTests.test_memoize_errors_are_not_cached) ... ok
+test_memoize_none (tests.test_functions.FunctionTests.test_memoize_none) ... ok
+test_memoize_recursive_function (tests.test_functions.FunctionTests.test_memoize_recursive_function) ... ok
+test_memoize_unhashable_and_invalid_call (tests.test_functions.FunctionTests.test_memoize_unhashable_and_invalid_call) ... ok
+test_memoize_variable_arguments (tests.test_functions.FunctionTests.test_memoize_variable_arguments) ... ok
+test_repeat_calls_and_metadata (tests.test_functions.FunctionTests.test_repeat_calls_and_metadata) ... ok
+test_repeat_stops_on_error (tests.test_functions.FunctionTests.test_repeat_stops_on_error) ... ok
+test_repeat_validation (tests.test_functions.FunctionTests.test_repeat_validation) ... ok
+
+----------------------------------------------------------------------
+Ran 18 tests in 1.475s
+
+OK
+
+Exit code: 0
